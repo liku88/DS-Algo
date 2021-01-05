@@ -12,7 +12,7 @@ public class IndexOFLastOccurance {
         }
         int x = in.nextInt();
         int l = 0;
-        int h = n;
+        int h = n-1;
         int index = indexOfLastOcc(arr, l, h, x);
         System.out.println(index);
 
