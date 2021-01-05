@@ -13,7 +13,7 @@ public class IndexOfFirstOccurance {
         }
 
         int l = 0;
-        int h = n;
+        int h = n-1;
         int targetElement = in.nextInt();
 
         int index = indexOfFirstOccurance(arr, l , h , targetElement);
